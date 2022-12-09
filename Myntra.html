@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Myntra</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="left">
+            <img src="logo.png" alt="logo">
+            <ul>
+                <li id="men" onmouseover="displayon()" onmouseout="displayoff()">Men</li>
+                <li id="women" onmouseover="displayon1()" onmouseout="displayoff1()">Women</li>
+                <li id="kids" onmouseover="displayon2()" onmouseout="displayoff2()">Kids</li>
+                <li>Home & Living</li>
+                <li>Beauty</li>
+                <li>Studio</li>
+            </ul>
+            <input type="text" placeholder="Search for products, brands and more">
+        </div>
+        <div class="right">
+            <div class="profile">
+                <img src="profile.png" alt="">
+                <span class="right-text">
+                    Profile
+                </span>
+            </div>
+            <div class="wishlist">
+                <img src="wishlist.png" alt="">
+                <span class="right-text">
+                    Wishlist
+                </span>
+            </div>
+            <div class="bag">
+                <img src="bag.png" alt="">
+                <span class="right-text">
+                    Bag
+                </span>
+            </div>
+        </div>
+    </nav>
+    <section class="section-1">
+        <img src="home.PNG" alt="">
+    </section>
+    <section class="section-2">
+        <img src="section-2-img.PNG" alt="">
+    </section>
+    <section class="section-3">
+        <img src="section-3-img.PNG" alt="">
+    </section>
+    <section class="section-4">
+        <img src="section-4-img.PNG" alt="">
+    </section>
+    <section class="section-5">
+        <img src="section-5-img.PNG" alt="">
+    </section>
+    <section class="section-6">
+        <img src="section-6-img.PNG" alt="">
+    </section>
+    <div id="men-section">
+        <img src="men.png" alt="">
+    </div>
+    <div id="women-section">
+        <img src="women.png" alt="">
+    </div>
+    <div id="kids-section">
+        <img src="kids.png" alt="">
+    </div>
+
+
+    <img class="sidebar" src="sidebar.PNG">
+    <script>
+        let men_section = document.getElementById('men-section');
+        // let men = document.getElementById('men');
+        let women_section = document.getElementById('women-section');
+        // let women = document.getElementById('women');
+        // let men = document.getElementById('men');
+        let kids_section = document.getElementById('kids-section');
+        // let kids = document.getElementById('kids');
+        // men.addEventListener('mouseover', ()=>{
+        //     men_section.style.display='block';
+        // })
+        // men.addEventListener('mouseoout', ()=>{
+            // })
+            // function displayon(){
+                // }
+        function displayon(){
+            men_section.style.display="block";
+        }
+        function displayoff(){
+
+            men_section.style.display="none";
+        }
+        function displayon1(){
+            women_section.style.display="block";
+        }
+        function displayoff1(){
+
+            women_section.style.display="none";
+        }
+        
+        function displayon2(){
+            kids_section.style.display="block";
+        }
+        function displayoff2(){
+
+            kids_section.style.display="none";
+        }
+    </script>
+</body>
+</html>
