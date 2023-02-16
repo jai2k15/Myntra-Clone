@@ -1,141 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
-</head>
-<body class="">
-    <nav class="border" id="navbar">
-        <div class="right px-2">
-            <div class="hamburger" onclick="toggleMenu()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+    </head>
+    <body class="">
+        <nav class="border" id="navbar">
+            <div class="right px-2">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="logo mx-2">
+                    Myntra
+                    <img src="" alt="">
+                </div>
             </div>
-            <div class="logo mx-2">
-                Myntra
-                <img src="" alt="">
+            <div class="left  space-x-4 opacity-90 pr-4">
+                <div class=""><img src="img/add.png" alt=""></div>
+                <div class="" id="searchIcon"><img src="img/search.png" alt=""></div>
+                <div class=""><img src="img/favorite.png" alt=""></div>
+                <div class=""><img src="img/shopping.png" alt=""></div>
             </div>
+        </nav>
+        <div id="searchBox" class="hidden searchComponent items-center justify-between px-4">
+            <div class="" id="searchArrow"><img src="img/arrow.png" class="w-7" alt=""></div>
+            <div class=""><input type="text" id="inputSearch" class="text-sm" placeholder="Search for brand and products"></div>
+            <div class=""><img src="img/searchPink.png" class="w-7" alt=""></div>
         </div>
-        <div class="left space-x-4 opacity-70 pr-4">
-            <div class=""><img src="img/add.png" alt=""></div>
-            <div class=""><img src="img/search.png" alt=""></div>
-            <div class=""><img src="img/favorite.png" alt=""></div>
-            <div class=""><img src="img/shopping.png" alt=""></div>
+
+
+        <div id="bd">
+
+
+            <div class="options mb-2 box-border space-x-2 flex flex-nowrap w-full overflow-auto bg-white">
+                <div class="box-border min-h-fit shrink-0 ml-2">
+                    <a href="https://www.myntra.com/shop/ss23-softlaunch"></a><img src="img/section2-1.gif" class="h-16" alt=""></a>
+            </div>
+            <div class="box-border min-h-fit shrink-0 ">
+                <a href="https://www.myntra.com/shop/men"><img class="h-16" src="img/section2-2.jpg" alt=""></a></div>
+            <div class="box-border min-h-fit shrink-0 ">
+                <a href="https://www.myntra.com/shop/women"><img class="h-16" src="img/section2-3.jpg" alt=""></a></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-4.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-5.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-6.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-7.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-8.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-9.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-10.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-11.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-12.jpg" alt=""></div>
+            <div class="box-border min-h-fit shrink-0 mr-2"><img class="h-16" src="img/section2-13.jpg" alt=""></div>
         </div>
-    </nav>
-    <div id="bd">
-    
-    
-    <div class="mb-2 box-border space-x-2 flex flex-nowrap w-full overflow-auto bg-white">
-        <div class="box-border min-h-fit shrink-0 ml-2"><img src="img/section2-1.gif" class="h-16" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-2.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-3.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-4.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-5.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-6.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-7.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-8.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-9.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-10.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-11.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 "><img class="h-16" src="img/section2-12.jpg" alt=""></div>
-        <div class="box-border min-h-fit shrink-0 mr-2"><img class="h-16" src="img/section2-13.jpg" alt=""></div>
+        <div class="section3">
+            <img src="/img/section3.jpg" alt="">
+        </div>
+        <div class="section4 my-1">
+            <img src="img/section4.gif" alt="">
+        </div>
+        <div class="section5 flex my-1">
+            <div class="leftImage"><img src="img/section5-left.gif" alt=""></div>
+            <div class="rightImage"><img src="img/section5-right.gif" alt=""></div>
+        </div>
+        <div class="section6 my-1">
+            <img src="img/section6.jpg" alt="">
+        </div>
+        <div class="section7">
+            <img src="img/section7.gif" alt="">
+        </div>
+        <div class="section8">
+            <img src="img/section8-img.jpg" alt="">
+        </div>
+        <div class="section9">
+            <img src="img/section9-img.jpg" alt="">
+        </div>
+        <div class="section10">
+            <img src="img/section10-img.jpg" alt="">
+        </div>
+    </body>
+</html></div><div id="sideNavbar" class="-left-64 transition duration-500 ease-in sideNav overflow-y-auto w-9/12  h-600 bg-white absolute inset-0">
+<div class="offer flex">
+    <img src="/img/menu.jpg" class="" alt="">
+</div>
+<div class="options text-sm font-semibold">
+    <div class="flex my-2 justify-between items-center px-6 h-10">
+        <div class="">Men</div>
+        <div class="opacity-50">></div>
     </div>
-    <div class="section3">
-        <img src="/img/section3.jpg" alt="">
+    <div class="flex my-2 justify-between items-center px-6 h-10 ">
+        <div class="">Women</div>
+        <div class="opacity-50">></div>
     </div>
-    <div class="section4 my-1">
-        <img src="img/section4.gif" alt="">
+    <div class="flex my-2 justify-between items-center px-6 h-10 ">
+        <div class="">Kids</div>
+        <div class="opacity-50">></div>
     </div>
-    <div class="section5 flex my-1">
-        <div class="leftImage"><img src="img/section5-left.gif" alt=""></div>
-        <div class="rightImage"><img src="img/section5-right.gif" alt=""></div>
+    <div class="flex my-2 justify-between items-center px-6 h-10 ">
+        <div class="">Home & Living</div>
+        <div class="opacity-50">></div>
     </div>
-    <div class="section6 my-1">
-        <img src="img/section6.jpg" alt="">
-    </div>
-    <div class="section7">
-        <img src="img/section7.gif" alt="">
+    <div class="flex my-2 justify-between items-center px-6 h-10">
+        <div class="">Beauty</div>
+        <div class="opacity-50">></div>
     </div>
 </div>
-
-<div id="sideNavbar" class="-left-64 transition duration-500 ease-in sideNav overflow-y-auto w-9/12  h-600 bg-white absolute inset-0">
-    <div class="offer flex">
-        <img src="/img/menu.jpg" class="" alt="">
+<div class="links flex flex-col my-2 text-sm">
+    <div class="my-2 justify-between items-center px-6 h-10 ">
+        <spna class="opacity-60">Myntra Studio</spna>
+        <span class="px-1 border-2 border-solid border-pink-500 text-xs rounded-xl ">new</span>
     </div>
-    <div class="options text-sm font-semibold">
-        <div class="flex my-2 justify-between items-center px-6 h-10">
-            <div class="">Men</div>
-            <div class="opacity-50">></div>
-        </div>
-        <div class="flex my-2 justify-between items-center px-6 h-10 ">
-            <div class="">Women</div>
-            <div class="opacity-50">></div>
-        </div>
-        <div class="flex my-2 justify-between items-center px-6 h-10 ">
-            <div class="">Kids</div>
-            <div class="opacity-50">></div>
-        </div>
-        <div class="flex my-2 justify-between items-center px-6 h-10 ">
-            <div class="">Home & Living</div>
-            <div class="opacity-50">></div>
-        </div>
-        <div class="flex my-2 justify-between items-center px-6 h-10">
-            <div class="">Beauty</div>
-            <div class="opacity-50">></div>
-        </div>
+    <div class="my-2 justify-between items-center px-6 h-10">
+        <spna class="opacity-60">Myntra Studio</spna>
+        <span class="px-1 border-2 border-solid border-pink-500 text-xs rounded-xl ">new</span>
     </div>
-    <div class="links flex flex-col my-2 text-sm">
-        <div class="my-2 justify-between items-center px-6 h-10 "><spna class="opacity-60">Myntra Studio</spna>
-            <span class="px-1 border-2 border-solid border-pink-500 text-xs rounded-xl ">new</span>
-        </div>
-        <div class="my-2 justify-between items-center px-6 h-10"><spna class="opacity-60">Myntra Studio</spna>
-            <span class="px-1 border-2 border-solid border-pink-500 text-xs rounded-xl ">new</span>
-        </div>
-        <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Myntra Insider
-        </div>
-        <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Gift Cards
-        </div>
-        <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Contact Us
-        </div>
-        <div class="my-2 justify-between items-center px-6 h-10 opacity-60">FAQs
-        </div>
-        <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Legal
-        </div>
+    <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Myntra Insider
     </div>
-    <div class="">
-        <img src="/img/menuEnd.jpg" alt="">
+    <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Gift Cards
     </div>
-
+    <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Contact Us
+    </div>
+    <div class="my-2 justify-between items-center px-6 h-10 opacity-60">FAQs
+    </div>
+    <div class="my-2 justify-between items-center px-6 h-10 opacity-60">Legal
+    </div>
 </div>
+<div class="">
+    <img src="/img/menuEnd.jpg" alt="">
+</div></div><script>
+let sideNavbar = document.getElementById('sideNavbar');
+let inputSearch = document.getElementById('inputSearch');
+let bd = document.getElementById('bd');
+let searchBox = document.getElementById('searchBox');
+let searchArrow = document.getElementById('searchArrow');
+let searchIcon = document.getElementById('searchIcon');
+let navbar = document.getElementById('navbar');
+let status = "";
+let toggleMenu = () => { // console.log("Clicked");
+    sideNavbar.style.left = '0';
+    document.body.style.overflow = 'hidden';
+};
+bd.onclick = function (e) {
+    if (e.target != sideNavbar) {
+        // document.getElementById('content-area').innerHTML = 'You clicked outside.';
+        // console.log('Clicked outside')
+        sideNavbar.style.left = '-64rem';
+        document.body.style.overflow = 'scroll';
 
-    <script>
-        let sideNavbar = document.getElementById('sideNavbar');
-        let bd = document.getElementById('bd');
-            let navbar = document.getElementById('navbar');
-            let status ="";
-            let toggleMenu = () => {
-                // console.log("Clicked");
-                sideNavbar.style.left = '0';
-                document.body.style.overflow = 'hidden';
-            };
-        bd.onclick = function(e){
-            if(e.target != sideNavbar) {
-            // document.getElementById('content-area').innerHTML = 'You clicked outside.'; 
-            // console.log('Clicked outside')    
-            sideNavbar.style.left = '-64rem';
-            document.body.style.overflow = 'scroll';
+    } else { // console.log('Clicked Inside')
+    } searchIcon.addEventListener('click', () => {
+        console.log('clicked on search');
+        searchBox.style.display = 'flex'
+        navbar.style.display = 'none'
+        if (searchBox.style.display == 'none') {}
+    });
 
-        } else{    
-            // console.log('Clicked Inside')         
-        }
-    }
+    searchArrow.addEventListener('click', () => {
+        console.log('clicked on back');
+        searchBox.style.display = 'none';
+        navbar.style.display = 'flex'
+        inputSearch.value = "";
 
-    </script>
-</body>
-</html>
+
+    })
+
+}</script></body></html>
