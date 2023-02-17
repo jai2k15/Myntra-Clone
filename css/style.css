@@ -10,6 +10,13 @@ nav{
 
 
 }
+#searchBox{
+    height: 4rem;
+    display: none;
+}
+#sideNavbar{
+    left: -200rem;
+}
 .right{
     height: 100%;
     display: flex;
